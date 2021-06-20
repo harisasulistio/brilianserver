@@ -1,0 +1,166 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    padding-top: 6rem;
+}
+.navbar {
+    /* background-color: #343a40; */
+    padding: 20px ;
+}
+ .banner img {
+     width: 100%;
+     background-size: cover;
+    height: 620px;
+    position: relative;
+}
+.banner::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+@media only screen and (max-width: 768px) {
+    .banner img {
+        height: 550px;
+    }
+}
+
+.carousel-caption{
+    padding-bottom:150px;
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-caption{
+        padding-top: 150px;
+    }
+}
+.carousel-caption h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-caption h2 span{
+    color: 	#00008B;
+}
+.carousel-control-prev {
+    background-image: none;
+}
+.carousel-indicators .active {
+    background-color: 	#00008B;
+    
+}
+@media only screen and (max-width: 768px) {
+    .carousel-caption{
+        margin-top: 20px;
+        text-align: center;
+        height: 544px;
+        background-size: auto 544px;
+    }
+    .carousel-caption h2{
+        width: 100%;
+        text-align: center;
+        padding: 68px 0% 0% 0%;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+}
+
+.title{
+    text-align: center;
+    font-weight: 700;
+}
+.title span{
+    color: 	#00008B;
+}
+.card-header{
+    background: none;
+}
+
+.pilihan .card{
+    background: none;
+}
+section.features {
+    background: #f7fafd;
+    margin-top: 20px;
+    padding-bottom: 80px;
+}
+.features .card{
+    background: #f7fafd;
+    border: none;
+    /* border-radius: 20px; */
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+
+.features .card:hover{
+    transform: scale(1.1);
+    background: #ffffff;
+}
+.btn,.btn-outline-light {
+    border: 1px solid #00008B;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    background: none;
+}
+.btn-outline-light:hover {
+    color: 	#00008B;
+    background: none;
+}
+@media only screen and (max-width: 768px) {
+    .btn,  .btn-outline-light {
+        margin-bottom: 20px;
+    }
+}
+.our-dc {
+    background-image: url('/assets/indonesia\ 1.png');
+}
+.our-dc .location small {
+    font-size: 18px;
+    color: #727c8c;
+    line-height: 22px;
+}
+ ul li{
+    list-style: none;
+}
+.our-dc .nav-link{
+    color: black;
+}
+.our-dc .nav-link:hover{
+    color: #00008B;
+    border-bottom: 3px solid #00008B;
+}
+p {
+    line-height: 30px;
+}
+h4 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #374151;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+a:hover {
+    text-decoration: none;
+    color: #00008B;
+}
+.title-2{
+    color: 	#00008B;
+    font-weight: 700;
+}
+
+footer{
+    background: #2b2b2b;
+    color: white;
+    font-size: 24px;
+}
+
