@@ -6,13 +6,19 @@ section {
 }
 .navbar {
     background-color: #343a40;
-    padding: 20px ;
+    padding: 20px;
 }
  .banner img {
      width: 100%;
-     background-size: auto 544px ;
-    height: 812px;
+     background-size: cover ;
+    height: 584px;
     position: relative;
+}
+@media (max-width:380px){
+    .banner img {
+        height: 544px;
+        background-size: auto 544px;
+    }
 }
 .banner::after {
     content: '';
@@ -28,11 +34,9 @@ section {
         height: 550px;
     }
 }
-
-.carousel-caption{
-    padding-bottom:150px;
+.carousel-caption {
+    padding-bottom: 100px;
 }
-
 @media only screen and (max-width: 768px) {
     .carousel-caption{
         padding-top: 150px;
@@ -127,6 +131,9 @@ section.features {
 }
  ul li{
     list-style: none;
+}
+.our-dc {
+    background-image: url('../assets/indonesia.png');
 }
 .our-dc .nav-link{
     color: black;
