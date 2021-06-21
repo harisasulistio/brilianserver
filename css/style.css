@@ -5,13 +5,13 @@ section {
     padding-top: 6rem;
 }
 .navbar {
-    /* background-color: #343a40; */
+    background-color: #343a40;
     padding: 20px ;
 }
  .banner img {
      width: 100%;
-     background-size: cover;
-    height: 620px;
+     background-size: auto 544px ;
+    height: 812px;
     position: relative;
 }
 .banner::after {
