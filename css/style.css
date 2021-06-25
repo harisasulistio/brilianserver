@@ -57,7 +57,7 @@ section {
 }
 @media (max-width:380px){
     .banner img {
-        height: 544px;
+        height: 600px;
         background-size: auto 544px;
     }
 }
@@ -94,6 +94,7 @@ section {
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .carousel-control-prev {
     background-image: none;
 }
