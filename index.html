@@ -14,43 +14,91 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Font awesome -->
     <link rel="stylesheet" href="css/all.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
+    <link rel="icon" type="image/png" href="./assets/logo.png">
     <title>BrilianServer</title>
   </head>
   <body>
-   <!-- navbar -->
-   <nav class="navbar navbar-light badge-dark">
-     <div class="container">
-  <span class="navbar-brand mb-0 h1 text-white">BrilianServer</span>
+
+ <!-- navbar -->
+  <header>
+ <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-3">
+   <div class="container">
+  <a class="navbar-brand" href="#">
+    <img src="./assets/logo 1.png" width="60" alt="">
+    BrilianServer
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" style="background-color: white;"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item align-self-center">
+        <a class="nav-link" href="#">
+          <i class="fab fa-instagram text-white"></i>
+           brilianserver</a>
+      </li>
+      <li class="nav-item align-self-center">
+        <a class="nav-link" href="#">
+          <i class="far fa-envelope text-white"></i>
+          sales@briliantech.co.id</a>
+      </li>
+    <a class="btn px-4 btn-secondary ml-5" href="#" role="button">Sign In</a>
+    <a class="btn px-4 btn-primary ml-5" href="#" role="button">Sign Up</a>
+  </ul>
+  </div>
 </div>
 </nav>
-   <!-- Akhir navbar -->
+</header>
+<!-- Akhir navbar -->
+
 
 <!-- carousel -->
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+ <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleFade" data-slide-to="1"></li>
   </ol>
-<!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel"> -->
-  <div class="carousel-inner">
+ <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel"> -->
+   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="banner">
       <img src="./assets/carousel.jpg" class="d-block" alt="...">
     </div>
     <div class="carousel-caption">
-      <h2 class="carousel-title">Brilian <span>Solution</span> For your Bussines</h2>
-      <p class="carousel-desc"></p>
+      <h2 class="carousel-title text-left">Brilian Solution For your Bussines</h2>
+      <p class="carousel-desc text-left"></p>
     </div>
     </div>
     <div class="carousel-item">
       <div class="banner">
-      <img src="./assets/carousel1.jpg" class="d-block" alt="...">
+      <img src="./assets/carousel2.jpg" class="d-block" alt="...">
     </div>
     <div class="carousel-caption">
-      <h2 class="carousel-title">Brilian <span>Solution</span> For your Bussines</h2>
-      <p class="carousel-desc"></p>
+      <h2 class="carousel-title text-left">Brilian Server has a engineer support certified
+      </h2>
+      <div class="row mt-2">
+        <div class="col-md-2 col-12 d-flex justify-content-start">
+          <img src="./assets/cisco_ccnp_R_26S.png" width="90" alt="">
+        </div>
+        <div class="col-md-2 col-12 d-flex justify-content-start">
+          <img src="./assets/Cisco_Specialist_600.png" width="90" alt="">
+        </div>
+        <div class="col-md-2 col-12 d-flex justify-content-start">
+          <img src="./assets/mtcna.png" width="90" alt="">
+        </div>
+        <div class="col-md-2 col-12 d-flex justify-content-start">
+          <img src="./assets/2918-google-cloud-certified.png" width="90" alt="">
+        </div>
+        <div class="col-md-2 col-12 d-flex justify-content-start">
+          <img src="./assets/kisspng-amazon-web-services-digital-badge-certification-lo-august-2-8-joekiller-5be979081bde66.5341295415420275281142.png" width="90" alt="">
+        </div>
+        <div class="col-md-2 d-flex justify-content-start">
+          <img src="./assets/AWS-AdvNetworking-Specialty.png" width="90" alt="">
+        </div>
+      </div>
     </div>
     </div>
   </div>
@@ -63,119 +111,292 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<!-- akhir carosusel -->
-
-<!-- pilihan -->
-<!-- <div class="pilihan">
-<div class="container-fluid mt-4">
-  <div class="card shadow-sm text-center" style="border: none;">
-    <div class="card-header">
-      <div class="container">
-      <ul class="nav nav-tabs card-header-tabs p-3">
-        <li class="nav-item">
-          <button type="button" id="hypercloud" class="btn btn-outline-light">Hypercloud</button>
-          <button type="button" id="dedicated" class="btn btn-outline-light">Dedicated server</button>
-          <button type="button" id="collecation" class="btn btn-outline-light">collecation server</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- mulai hypercloud -->
-  <!-- <div class="card-body text-left hypercloud" id="items1">
-    <div class="container">
-    <div class="row">
-      <div class="col-md-7 mt-2">
-      <h3 class="title-2">
-        Hypercloud
-      </h3>
-      <p class="mt-2 text-muted">
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae alias, at provident eveniet repellendus optio natus dicta cumque dolorum possimus?
-      </p>
-    </div>
-  </div>
-  </div>
-  </div> -->
-  <!-- akhir hypercloud -->
-
-  <!-- mulai  dedicated servis -->
-  <!-- <div class="card-body text-left dedicated" id="items2">
-    <div class="container">
-    <div class="row">
-      <div class="col-md-7 mt-2">
-      <h3 class="title-2">
-       Dedicated Server
-      </h3>
-      <p class="mt-2 text-muted">
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae alias, at provident eveniet repellendus optio natus dicta cumque dolorum possimus?
-      </p>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div> -->
-  <!-- akhir dedicated  -->
-
-  <!-- star collecation server -->
-  <!-- <div class="card-body text-left collecation" id="items3">
-    <div class="container">
-    <div class="row">
-      <div class="col-md-7 mt-2">
-      <h3 class="title-2">
-        Collecation server
-      </h3>
-      <p class="mt-2 text-muted">
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae alias, at provident eveniet repellendus optio natus dicta cumque dolorum possimus?
-      </p>
-    </div>
-  </div>
-  </div>
-  </div> -->
-  <!-- akhir collecation server -->
-  <!-- </div>
 </div>
-</div> -->
+<!-- akhir carosusel -->
 
 <!-- section servis -->
 <section class="service">
   <div class="container">
     <div class="row" data-aos="fade-up">
       <div class="col-md-6 align-self-center">
+
+        <!-- hypercloud -->
         <div class="card" style="border: none;">
           <div class="card-body">
           <h4 class="card-title">
-            <i class="fab fa-cloudversify fs-1" style="color:	#00008B"></i>
-            Hypercloud
+            <img src="./assets/hypercloud.png" alt="">
+            <a href="#" data-toggle="modal" class="link" data-target="#exampleModal">Hypercloud</a>
+            <!-- Modal hypercloud -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      <img src="./assets/hypercloud.png" alt="">
+                      Hypercloud</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                   <div class="row">
+                     <div class="col-md-4">
+                      <h4 class="title mt-4 text-center">Hypercloud Silver
+                        <br>
+                        <small class="text-muted">(Virtual Machine & Website)</small>
+                      </h4>
+                      <ul>
+                        <li><i class="far fa-check-circle text-success"></i> Free design standart website company</li>
+                        <li><i class="far fa-check-circle text-success"></i> Free domain & SSL yearly</li>
+                        <li><i class="far fa-check-circle text-success"></i>  1 IP Public</li>
+                        <li><i class="far fa-check-circle text-success"></i>  4 vCPu, 4GB RAM, 50GB Storage</li>
+                        <li><i class="far fa-check-circle text-success"></i>  1 year contract minimum</li>
+                        <li><i class="far fa-check-circle text-success"></i>  Expandable</li>
+                      </ul>
+                      <h4 class="text-center">IDR 940.000</h4>
+                     </div>
+                     <div class="col-md-4">
+                      <h4 class="title mt-4 text-center">Hypercloud Gold
+                        <br>
+                        <small class="text-muted">(Virtual Machine & Mail Server)</small>
+                      </h4>
+                      <ul>
+                        <li><i class="far fa-check-circle text-success"></i> Free setup Zimbra Mail Server</li>
+                        <li><i class="far fa-check-circle text-success"></i> Free domain & SSL yearly</li>
+                        <li><i class="far fa-check-circle text-success"></i> 1 IP Public</li>
+                        <li><i class="far fa-check-circle text-success"></i> 4 vCPU 4GB RAM, 50GB Storage</li>
+                        <li><i class="far fa-check-circle text-success"></i> 1 years contract minimum</li>
+                        <li><i class="far fa-check-circle text-success"></i> Expandable</li>
+                      </ul>
+                      <h4 class="text-center">IDR 1.270.000</h4>
+                     </div>
+                     <div class="col-md-4">
+                      <h4 class="title mt-4 text-center">Hypercloud Platinum
+                        <br>
+                        <small class="text-muted">(Virtual Machine, Website & Mail Server)</small>
+                      </h4>
+                      <ul>
+                        <li><i class="far fa-check-circle text-success"></i> Free design standart website company</li>
+                        <li><i class="far fa-check-circle text-success"></i> Free setup Zimbra Mail Server</li>
+                        <li><i class="far fa-check-circle text-success"></i> Free domain & SSL yearly</li>
+                        <li><i class="far fa-check-circle text-success"></i> 2 IP Public</li>
+                        <li><i class="far fa-check-circle text-success"></i> 2x 4vCPU, 2x 4BG RAM, 2x 50GB Storage</li>
+                        <li><i class="far fa-check-circle text-success"></i> 1 year contract minimum</li>
+                        <li><i class="far fa-check-circle text-success"></i> Expandable</li>
+                      </ul>
+                      <h4 class="text-center">IDR 1.670.000</h4>
+                     </div>
+                   </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Akhir modal hypercloud -->
           </h4>
-            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="text-muted">We provide budget virtual machine to allow those who do not necessarily need a large setup infrastructure</p>
           </div>
         </div>
+        <!-- akhir hypercloud -->
+
+        <!-- dedicated server -->
         <div class="card mt-3" style="border: none;">
           <div class="card-body">
             <h4 class="card-title">
-              <i class="fas fa-server fs-1" style="color:	#00008B"></i>
-              Dedicated Server
+              <img src="./assets/dedicated.png" alt="">
+              <a href="#" data-toggle="modal" class="link" data-target="#dedicated">Dedicated Server</a>
+              <!-- modal dedicated -->
+              <div class="modal fade" id="dedicated" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        <img src="./assets/dedicated.png" alt="">
+                        Dedicated Server</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container-fluid">
+                     <div class="row">
+                       <div class="col-md-4">
+                        <h4 class="title mt-4 text-center">Westin Silver
+                          <br>
+                        </h4>
+                        <ul>
+                          <li><i class="far fa-check-circle text-success"></i> 1Gbps bandwidht international shared
+                          </li>
+                          <li><i class="far fa-check-circle text-success"></i> Free domain & SSL yearly
+                          </li>
+                          <li><i class="far fa-check-circle text-success"></i> 5 IP Public</li>
+                          <li><i class="far fa-check-circle text-success"></i> CPU 8 Core, 24GB RAM, 500GB Sata Storage
+                          </li>
+                          <li><i class="far fa-check-circle text-success"></i> 1 year contract minimum 40
+                          </li>
+                        </ul>
+                        <h4 class="text-center">IDR 1.840.000
+                        </h4>
+                       </div>
+                       <div class="col-md-4">
+                        <h4 class="title mt-4 text-center">Westin Gold
+                        </h4>
+                        <ul>
+                          <li><i class="far fa-check-circle text-success"></i> 1Gbps bandwidht international shared
+                          </li>
+                          <li><i class="far fa-check-circle text-success"></i> Free domain & SSL yearly
+                          </li>
+                          <li><i class="far fa-check-circle text-success"></i> 5 IP Public</li>
+                          <li><i class="far fa-check-circle text-success"></i>  CPU 8 Core, 64GB RAM, 1TB Sata Storage</li>
+                          <li><i class="far fa-check-circle text-success"></i> 1 year contract minimum 59</li>
+                        </ul>
+                        <h4 class="text-center">IDR 2.270.000
+                        </h4>
+                       </div>
+                       <div class="col-md-4">
+                        <h4 class="title mt-4 text-center">Westin Platinum
+                        </h4>
+                        <ul>
+                          <li><i class="far fa-check-circle text-success"></i> 1Gbps bandwidht international shared
+                          </li>
+                          <li><i class="far fa-check-circle text-success"></i> Free domain & SSL yearly</li>
+                          <li><i class="far fa-check-circle text-success"></i> 5 IP Public</li>
+                          <li><i class="far fa-check-circle text-success"></i> CPU 16 Core, 64GB RAM, 1TB SSD Storage
+                          </li>
+                          <li><i class="far fa-check-circle text-success"></i> 1 year contract minimum
+                          </li>
+                        </ul>
+                        <h4 class="text-center">IDR 16.000.000</h4>
+                       </div>
+                     </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- akhir modal dedicated -->
             </h4>
-            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="text-muted">The entire server is not shared with anyone else. You can obtain a server that is solely for you.</p>
           </div>
         </div>
+        <!-- akhir dedicated server -->
+
+        <!-- colocation server -->
         <div class="card mt-3" style="border: none;">
           <div class="card-body">
             <h4 class="card-title">
-              <i class="fas fa-server fs-1" style="color:	#00008B"></i>
-              Collocation Server
+              <img src="./assets/colocation.png" alt="">
+              <a href="#" data-toggle="modal" class="link" data-target="#colocation">Colocation Server</a>
+              <!-- modal colocation server -->
+              <div class="modal fade" id="colocation" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        <img src="./assets/colocation.png" alt="">
+                        Colocation Server</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container-fluid">
+                     <div class="row">
+                       <div class="col-md-4">
+                        <h4 class="title mt-4 text-center">Colo Silver
+                          <br>
+                        </h4>
+                        <ul>
+                          <li><i class="far fa-check-circle text-success"></i> 1U Rack</li>
+                          <li><i class="far fa-check-circle text-success"></i> 1 IP Public</li>
+                          <li><i class="far fa-check-circle text-success"></i> 1 IP Public</li>
+                          <li><i class="far fa-check-circle text-success"></i> Dual Power Redudancy</li>
+                          <li><i class="far fa-check-circle text-success"></i> 500 Mbps shared bandwidht</li>
+                          <li><i class="far fa-check-circle text-success"></i> IP Transit Support</li>
+                          <li><i class="far fa-check-circle text-success"></i> Expandable</li>
+                          <li><i class="far fa-check-circle text-success"></i> 1 year contract minimum</li>
+                        </ul>
+                        <h4 class="text-center">IDR 6.000.000</h4>
+                       </div>
+                       <div class="col-md-4">
+                        <h4 class="title mt-4 text-center">Colo Gold
+                        </h4>
+                        <ul>
+                          <li><i class="far fa-check-circle text-success"></i> 6U Rack</li>
+                          <li><i class="far fa-check-circle text-success"></i> 5 IP Public</li>
+                          <li><i class="far fa-check-circle text-success"></i> Dual Power Redudancy</li>
+                          <li><i class="far fa-check-circle text-success"></i> 500 Mbps shared bandwidht</li>
+                          <li><i class="far fa-check-circle text-success"></i> IP Transit Support</li>
+                          <li><i class="far fa-check-circle text-success"></i> Expandable</li>
+                          <li><i class="far fa-check-circle text-success"></i> 1 years contract minimum</li>
+                        </ul>
+                        <h4 class="text-center">IDR 12.000.000</h4>
+                       </div>
+                       <div class="col-md-4">
+                        <h4 class="title mt-4 text-center">Colo Platinum
+                        </h4>
+                        <ul>
+                          <li><i class="far fa-check-circle text-success"></i> 12U Rack</li>
+                          <li><i class="far fa-check-circle text-success"></i> 5 IP Public</li>
+                          <li><i class="far fa-check-circle text-success"></i> Dual Power Redudancy</li>
+                          <li><i class="far fa-check-circle text-success"></i> 500 Mbps shared bandwidht</li>
+                          <li><i class="far fa-check-circle text-success"></i> IP Transit Support</li>
+                          <li><i class="far fa-check-circle text-success"></i> Expandable</li>
+                          <li><i class="far fa-check-circle text-success"></i> 1 years contract minimum</li>
+                        </ul>
+                        <h4 class="text-center">IDR 16.000.000</h4>
+                       </div>
+                     </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- akhir modal colocation server -->
             </h4>
-            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="text-muted">You build your own infrastructure, and we provide colocation services to ensure your uptime availability.</p>
           </div>
         </div>
+        <!-- akhir colocation server -->
       </div>
       <div class="col-md-6 d-none d-sm-block">
-        <img width="500" class="mx-auto d-block" src="./assets/banner1.png" alt="">
+      <img width="500" class="mx-auto d-block" src="./assets/banner1.png" alt="">
       </div>
     </div>
   </div>
 </section>
 <!-- akhir servis -->
+
+<!-- partner -->
+<section class="partner">
+  <div class="container">
+    <div class="row" data-aos="fade-up">
+      <div class="col text-center">
+        <h3 class="font-weight-bold">Some of our amazing brand supplier
+        </h3>
+      </div>
+    </div>
+    <div class="row mt-5 justify-content-md-center" data-aos="fade-up" >
+      <div class="col-md-2 col-12">
+        <img src="./assets/partner/juniper.png" width="90" alt="">
+      </div>
+      <div class="col-md-2 col-12">
+        <img src="./assets/partner/hp.png" width="70" alt="">
+      </div>
+      <div class="col-md-2 col-12">
+        <img src="./assets/partner/Super_Micro_Computer_Logo.svg.png" width="70" alt="">
+      </div>
+      <div class="col-md-2 col-12">
+        <img src="./assets/partner/600px-Dell_Logo.svg.png" width="70" alt="">
+      </div>
+      <div class="col-md-2 col-12">
+        <img src="./assets/partner/cisco-logo-transparent.png" width="70" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- akhir partner -->
 
 <!-- feature -->
 <section class="features">
@@ -223,7 +444,7 @@
       <div class="card">
         <div class="card-body shadow" data-aos="fade-up">
           <i class="far fa-handshake fs-1"  style="color:#00008B"></i>
-          <h4 class="card-title mt-4">15 Minutes Respone Time</h4>
+          <h4 class="card-title mt-4">15 Minutes Response Time</h4>
           <p class="card-text mt-2 text-muted">Support tickets response within minutes for fast resolution times.
           </p>
         </div>
@@ -277,11 +498,12 @@
         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Omadata, Surabaya</a>
       </li>
       <li class="nav-item" role="presentation">
-        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Tukwila, Seattle</a>
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Westin</a>
       </li>
     </ul>
   </div>
   </div>
+
   <div class="container">
     <div class="tab-content" id="myTabContent">
       <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -329,7 +551,7 @@
           <div class="col-md-7 mt-4">
             <h3 class="location title-2">
               <i class="fas fa-thumbtack" style="color:	#00008B"></i>
-               Westtin Building Exchange
+               Westin Building Exchange
               <br>
               <small>2001 6th #3020, Seattle, WA 98121, United States</small>
             </h3>
@@ -338,7 +560,6 @@
               <ul>
                 <li><i class="far fa-check-circle text-success"></i> Dedicated Servers</li>
                 <li><i class="far fa-check-circle text-success"></i> Hypercloud</li>
-                <li><i class="far fa-check-circle text-success"></i> Colocation</li>
               </ul>
             </div>
           </div>
@@ -353,37 +574,48 @@
 <!-- Akhir our Dc -->
 
 <!-- footer -->
-<footer class="pb-5 text-center">
+<footer class="pb-5">
   <div class="container">
+    <div class="content">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 brand">
         <a href="#">
           <h5>BrilianServer</h5>
         </a>
-        <h6> &copy; copyright 2021 BrilianServer.</h6>
+        <p class="mt-3">PT Brilian Teknologi Internasional Jl Jambangan No 31-33 Surabaya</p>
+        <p>
+          <i class="far fa-envelope"></i>
+          <a href="mailto:sales@briliantech.co.id">
+          : sales@briliantech.co.id
+        </a>
+        </p>
+        <p>
+          <i class="fas fa-phone-alt"></i>
+          : (031) 82511812
+        </p>
+        <p> &copy; copyright 2021 BrilianServer.</p>
       </div>
       
-      <div class="col-md-3  text-center mt-4">
-        <h5>Services</h5>
+      <div class="col-md-3">
+        <h5 class="services">Services</h5>
         <a href="#" class="text-muted">Hypercloud</a> <br>
         <a href="#" class="text-muted">Dedicated Server</a> <br>
         <a href="#" class="text-muted">Collocation Server</a>
       </div>
-      <div class="col-md-3  text-center mt-4">
-        <h5>Company</h5>
+      <div class="col-md-3">
+        <h5 class="company">Company</h5>
         <a href="#" class="text-muted">About Us</a> <br>
         <a href="#" class="text-muted">Careers</a> <br>
-        <a href="#" class="text-muted">Seattle Data Centre</a> <br>
-        <a href="#" class="text-muted">Affiliates</a>
       </div>
-      <div class="col-md-3  text-center mt-4">
-        <h5>Support</h5>
+      <div class="col-md-3">
+        <h5 class="support">Support</h5>
         <a href="#" class="text-muted">Support Centre</a> <br>
+        <a href="#" class="text-muted">Billing Centre</a> <br>
         <a href="#" class="text-muted">Contact Us</a> <br>
         <a href="#" class="text-muted">FAQ</a> <br>
-        <a href="#" class="text-muted">System Status</a>
       </div>
     </div>
+  </div>
   </div>
 
 </footer>
@@ -409,49 +641,15 @@
   </script>
 
   <!-- GSAP -->
+  <script src="./js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/TextPlugin.min.js"></script>
+  <script src="./js/script.js"></script>
   <script>
     gsap.registerPlugin(TextPlugin);
-    gsap.to('.carousel-desc', {duration:2, text:'Lorem ipsum dolor, sit amet consectetur adipisicing elit'})
+    gsap.to('.carousel-desc', {duration:2, text:'Allow us to handle and protect your server, and you can focus on your businnes. With us you will get a powerfull servers with high-end enterprise class hardware that will guarante performance and reliability'})
   </script>
-  <script>
-    $('.carousel').carousel({
-      interval: 1000,
-      wrap : true,
-    });
-  </script>
-    <!-- <script>
-      var hypercloud = document.getElementById("hypercloud");
-      var dedicated = document.getElementById("dedicated");
-      var collecation = document.getElementById("collecation");
-
-      var items1 = document.getElementById("items1");
-      var items2 = document.getElementById("items2");
-      var items3 = document.getElementById("items3");
-      hypercloud.onclick = function () {
-        items1.style.display = "contents";
-        items2.style.display = "none";
-        items3.style.display = "none";
-        items1.style.padding = "50px";
-      };
-      dedicated.onclick = function () {
-        items1.style.display = "none";
-        items2.style.display = "contents";
-        items3.style.display = "none";
-      };
-      collecation.onclick = function () {
-        items1.style.display = "none";
-        items2.style.display = "none";
-        items3.style.display = "contents";
-      };
-    </script> -->
-
-    
-
-      
   
-
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
